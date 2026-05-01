@@ -4,6 +4,10 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 URL_FILE = PROJECT_ROOT / "server_url.txt"
 STATE_FILE = PROJECT_ROOT / "xhs_state.json"
+SESSION_STATUS_FILE = PROJECT_ROOT / "xhs_publish_session.json"
+SESSION_LOG_FILE = PROJECT_ROOT / "xhs_publish_session.log"
+SESSION_COMMAND_FILE = PROJECT_ROOT / "xhs_publish_command.json"
+SESSION_RESULT_FILE = PROJECT_ROOT / "xhs_publish_result.json"
 
 PUBLISH_URL = "https://creator.xiaohongshu.com/publish/publish"
 XHS_DOMAIN = "xiaohongshu.com"
